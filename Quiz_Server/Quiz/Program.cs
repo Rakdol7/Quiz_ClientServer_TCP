@@ -48,44 +48,49 @@ public class SocketListener
             Socket handler = listener.Accept();
 
             // Incoming data from the client.
-            string data = null;
-            byte[] bytes = null;
+            /*string data = null;
+            byte[] bytes = null;*/
 
-            while (true)
-            {
+            byte[] bytes = new byte[1024];
+
+            //while (true)
+            //{
                 int score = 0;
                 for(int i = 0; i < questions.Length; i++)
                 {
-                    byte[] questionBytes = Encoding.ASCII.GetBytes(questions[i]);
+                    byte[] questionBytes = Encoding.UTF8.GetBytes(questions[i]);
                     handler.Send(questionBytes);
                     Console.WriteLine($"Domanda inviata: {questions[i]}");
 
-                    bytes = new byte[1024];
+                    
                     int bytesRec = handler.Receive(bytes);
-                    data += Encoding.ASCII.GetString(bytes, 0, bytesRec);
-                    if (data.IndexOf("<EOF>") > -1)
+                    string data = Encoding.UTF8.GetString(bytes, 0, bytesRec).Trim();
+                    /*if (data.IndexOf("<EOF>") > -1)
                     {
                         break;
-                    }
+                    }*/
                     
-                    if (data.Trim().Equals(answers[i], StringComparison.OrdinalIgnoreCase))
+                    if (data.Equals(answers[i], StringComparison.OrdinalIgnoreCase))
                     {
                         score++;
-                        handler.Send(Encoding.ASCII.GetBytes("Corretto!"));
+                        handler.Send(Encoding.UTF8.GetBytes("Corretto!"));
                     }
                     else
                     {
-                        handler.Send(Encoding.ASCII.GetBytes("Sbagliato!"));
+                        handler.Send(Encoding.UTF8.GetBytes("Sbagliato!"));
                     }
 
                 }
 
                 string scoreMessage = $"Il tuo punteggio finale è: {score} su {questions.Length}";
-                byte[] msg = Encoding.ASCII.GetBytes(scoreMessage);
-                handler.Send(msg);
+                handler.Send(Encoding.UTF8.GetBytes(scoreMessage));
+
+
+                //byte[] msg = Encoding.ASCII.GetBytes(scoreMessage);
+               // handler.Send(msg);
                 handler.Shutdown(SocketShutdown.Both);
                 handler.Close();
-            }  
+            //}  
             
         }
         catch (Exception e)

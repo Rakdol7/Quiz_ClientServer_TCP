@@ -1,0 +1,15 @@
+C:\Users\masnada.21197\Desktop\Quiz_ClientServer_TCP\client_tcp\client_tcp\client_tcp\bin\Debug\net6.0\client_tcp.exe
+C:\Users\masnada.21197\Desktop\Quiz_ClientServer_TCP\client_tcp\client_tcp\client_tcp\bin\Debug\net6.0\client_tcp.deps.json
+C:\Users\masnada.21197\Desktop\Quiz_ClientServer_TCP\client_tcp\client_tcp\client_tcp\bin\Debug\net6.0\client_tcp.runtimeconfig.json
+C:\Users\masnada.21197\Desktop\Quiz_ClientServer_TCP\client_tcp\client_tcp\client_tcp\bin\Debug\net6.0\client_tcp.dll
+C:\Users\masnada.21197\Desktop\Quiz_ClientServer_TCP\client_tcp\client_tcp\client_tcp\bin\Debug\net6.0\client_tcp.pdb
+C:\Users\masnada.21197\Desktop\Quiz_ClientServer_TCP\client_tcp\client_tcp\client_tcp\obj\Debug\net6.0\client_tcp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\masnada.21197\Desktop\Quiz_ClientServer_TCP\client_tcp\client_tcp\client_tcp\obj\Debug\net6.0\client_tcp.AssemblyInfoInputs.cache
+C:\Users\masnada.21197\Desktop\Quiz_ClientServer_TCP\client_tcp\client_tcp\client_tcp\obj\Debug\net6.0\client_tcp.AssemblyInfo.cs
+C:\Users\masnada.21197\Desktop\Quiz_ClientServer_TCP\client_tcp\client_tcp\client_tcp\obj\Debug\net6.0\client_tcp.csproj.CoreCompileInputs.cache
+C:\Users\masnada.21197\Desktop\Quiz_ClientServer_TCP\client_tcp\client_tcp\client_tcp\obj\Debug\net6.0\client_tcp.sourcelink.json
+C:\Users\masnada.21197\Desktop\Quiz_ClientServer_TCP\client_tcp\client_tcp\client_tcp\obj\Debug\net6.0\client_tcp.dll
+C:\Users\masnada.21197\Desktop\Quiz_ClientServer_TCP\client_tcp\client_tcp\client_tcp\obj\Debug\net6.0\refint\client_tcp.dll
+C:\Users\masnada.21197\Desktop\Quiz_ClientServer_TCP\client_tcp\client_tcp\client_tcp\obj\Debug\net6.0\client_tcp.pdb
+C:\Users\masnada.21197\Desktop\Quiz_ClientServer_TCP\client_tcp\client_tcp\client_tcp\obj\Debug\net6.0\client_tcp.genruntimeconfig.cache
+C:\Users\masnada.21197\Desktop\Quiz_ClientServer_TCP\client_tcp\client_tcp\client_tcp\obj\Debug\net6.0\ref\client_tcp.dll

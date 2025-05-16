@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\masnada.21197\\Desktop\\Quiz_Server\\Quiz\\Quiz.csproj": {}
+    "C:\\Users\\masnada.21197\\Desktop\\Quiz_ClientServer_TCP\\Quiz_Server\\Quiz\\Quiz.csproj": {}
   },
   "projects": {
-    "C:\\Users\\masnada.21197\\Desktop\\Quiz_Server\\Quiz\\Quiz.csproj": {
+    "C:\\Users\\masnada.21197\\Desktop\\Quiz_ClientServer_TCP\\Quiz_Server\\Quiz\\Quiz.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\masnada.21197\\Desktop\\Quiz_Server\\Quiz\\Quiz.csproj",
+        "projectUniqueName": "C:\\Users\\masnada.21197\\Desktop\\Quiz_ClientServer_TCP\\Quiz_Server\\Quiz\\Quiz.csproj",
         "projectName": "Quiz",
-        "projectPath": "C:\\Users\\masnada.21197\\Desktop\\Quiz_Server\\Quiz\\Quiz.csproj",
+        "projectPath": "C:\\Users\\masnada.21197\\Desktop\\Quiz_ClientServer_TCP\\Quiz_Server\\Quiz\\Quiz.csproj",
         "packagesPath": "C:\\Users\\masnada.21197\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\masnada.21197\\Desktop\\Quiz_Server\\Quiz\\obj\\",
+        "outputPath": "C:\\Users\\masnada.21197\\Desktop\\Quiz_ClientServer_TCP\\Quiz_Server\\Quiz\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
