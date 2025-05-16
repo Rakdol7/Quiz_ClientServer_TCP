@@ -39,7 +39,7 @@ class QuizClient
 
 
                     bytesRead = stream.Read(buffer, 0, buffer.Length);
-                    string feedback = Encoding.UTF8.GetString(buffer, 0, bytesRead);
+                    string feedback = Encoding.UTF8.GetString(buffer, 0, bytesRead).Trim();
                     Console.WriteLine($"--> {feedback}\n");
                 }
 

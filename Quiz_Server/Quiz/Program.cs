@@ -30,7 +30,8 @@ public class SocketListener
         // In this case, we get one IP address of localhost that is IP : 127.0.0.1
         // If a host has multiple addresses, you will get a list of addresses
         IPHostEntry host = Dns.GetHostEntry("localhost");
-        IPAddress ipAddress = host.AddressList[0];
+        //IPAddress ipAddress = host.AddressList[0];
+        IPAddress ipAddress = IPAddress.Parse("127.0.0.1");
         IPEndPoint localEndPoint = new IPEndPoint(ipAddress, 2021);
 
         try
